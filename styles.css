@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#cars-card {
+    max-width: 55rem;
+    display: flex;
+    border-radius: 0.8rem;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+div {
+    padding: 3rem;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+img {
+    margin-bottom: 1.3rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.4rem;
+    margin-bottom: 1.3rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", cursive;
+    font-size: 0.89rem;
+    line-height: 1.7;
+    margin-bottom: 4rem;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", cursive;
+    ;
+    font-size: 1rem;
+    border: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 0.9rem 1.5rem;
+    border-radius: 20rem;
+    cursor: pointer;
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media (max-width: 780px){
+    #cars-card {
+        display: block;
+        margin: 6rem 3rem;
+    }
+
+    img {
+        width: 4rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    button{
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 426px) {
+    #cars-card {
+        margin: 5rem 1.5rem;
+    }
+
+    p{
+        margin-bottom: 2rem;
+    }
+}
