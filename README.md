@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/priyanshu-mishr/3-column-preview-card-component.git
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL:  https://priyanshu-mishr.github.io/3-column-preview-card-component/
 
 ## My process
 
